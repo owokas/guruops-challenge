@@ -9,7 +9,7 @@ app.use(express.json());
 app.get('/', (req: Request, res: Response) => {
     res.json({
     status: 'healthy',
-    message: 'Hello from Dockerized Node.js TypeScript App!',
+    message: 'Hello from Dockerized TypeScript App!',
     version: '1.0.0',
     environment: process.env.NODE_ENV || 'development'
   });
